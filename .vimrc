@@ -31,6 +31,10 @@ se cul
   
 " 显示光标位置  
 se ruler  
+
+" 设置窗口透明度
+set transparency=15
+
   
 " 记录上次打开的位置  
 if has("autocmd")  

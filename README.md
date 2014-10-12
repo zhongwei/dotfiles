@@ -1,0 +1,4 @@
+vimshare
+========
+
+Vim resource share

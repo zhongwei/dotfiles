@@ -137,7 +137,8 @@ call vundle#begin()
 
 " let Vundle manage Vundle, required
 Plugin 'gmarik/Vundle.vim'
-
+" Powerline beautify the vim statuslines 
+Plugin 'Lokaltog/vim-powerline'
 " The following are examples of different formats supported.
 " Keep Plugin commands between vundle#begin/end.
 " plugin on GitHub repo
@@ -169,7 +170,7 @@ Plugin 'python.vim--Vasiliev'
 Plugin 'xml.vim'
 
 " Color
-
+plugin 'colorselector'
 Plugin 'desert256.vim'
 Plugin 'Impact'
 " Plugin 'matrix.vim'
@@ -260,4 +261,5 @@ wincmd w
 autocmd VimEnter * wincmd w
 
 colorscheme vividchalk
+"colorscheme herald
 

@@ -260,6 +260,16 @@ let NERDChristmasTree=1
 wincmd w
 autocmd VimEnter * wincmd w
 
+" vim-powerline
+set laststatus=2
+let g:Powerline_symbols='fancy'
+set t_Co=256
+let g:Powerline_cache_enabled=1
+let g:Powerline_debugging_pyeval=1
+set noshowmode " Hide the default mode text (e.g. -- INSERT -- below the statusline)
+
+
+
 colorscheme vividchalk
 "colorscheme herald
 

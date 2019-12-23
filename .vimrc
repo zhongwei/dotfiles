@@ -209,7 +209,7 @@ Plugin 'taglist.vim'
 Plugin 'ZenCoding.vim'
 Plugin 'css_color.vim'
 Plugin 'hallettj/jslint.vim'
-
+Plugin 'fatih/vim-go'
 Plugin 'kien/ctrlp.vim'
 Plugin 'bling/vim-airline'
 Plugin 'Easygrep'

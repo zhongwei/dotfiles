@@ -33,7 +33,7 @@ se cul
 se ruler  
 
 " 设置窗口透明度
-set transparency=15
+" set transparency=15
 
   
 " 记录上次打开的位置  
@@ -170,7 +170,7 @@ Plugin 'python.vim--Vasiliev'
 Plugin 'xml.vim'
 
 " Color
-plugin 'colorselector'
+Plugin 'colorselector'
 Plugin 'desert256.vim'
 Plugin 'Impact'
 " Plugin 'matrix.vim'
@@ -234,7 +234,7 @@ map <F4> :NERDTreeToggle<cr>
 " 关闭vim时，如果打开的文件除了NERDTree没有其他文件时，它自动关闭，减少多次按:q!
 autocmd bufenter * if (winnr("$") == 1 && exists("b:NERDTreeType") &&b:NERDTreeType == "primary") | q | endif
 " 打开vim时自动打开NERDTree
-autocmd vimenter * NERDTree /Users/zhongwei/learningc
+autocmd vimenter * NERDTree /home/zhongwei
 "将NERDTree放置在编辑区右边  
   
 let NERDTreeWinPos=1  
